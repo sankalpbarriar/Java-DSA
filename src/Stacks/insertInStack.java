@@ -15,13 +15,12 @@ public class insertInStack {
         int x=7;
         Stack <Integer>temp=new Stack<Integer>();
         while(st.size()>idx){
-            temp.push(st.pop());
+            temp.push(st.pop());  //jahan pe insert karna ha waha tak khali kar ke temp me daal do
         }
-        st.push(x);
+        st.push(x);                //fir insert kar do wo elemet
         while(temp.size()>0){
-            st.push(temp.pop());
+            st.push(temp.pop());      //fir baki bhi daal do temp se
         }
         System.out.println(st);
-
     }
 }
