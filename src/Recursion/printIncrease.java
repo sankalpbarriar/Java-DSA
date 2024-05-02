@@ -26,7 +26,7 @@ public class printIncrease {
         Scanner sc= new Scanner(System.in);
         System.out.println("enter n:");
         int n=sc.nextInt();
-      //rintIncreasing(n);
+      //printIncreasing(n);
         printDecreasing(n);
 
     }
