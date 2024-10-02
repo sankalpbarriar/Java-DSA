@@ -1,15 +1,11 @@
 package Recursion;
 
 public class sum {
-    static int sums(int n){
-        if (n==1){
-            return 1;
-        }
-        else
-            return n+sums(n-1);
+    static void printSum(int a, int b){
+        System.out.printf("The sum of is %d",a+b);
     }
 
     public static void main(String[] args) {
-        System.out.println("sum is "+sums(50));
+        printSum(2,5);
     }
 }

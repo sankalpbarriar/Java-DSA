@@ -1,6 +1,5 @@
 package array2D;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class add {

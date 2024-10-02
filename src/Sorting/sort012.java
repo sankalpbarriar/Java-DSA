@@ -1,6 +1,5 @@
 package Sorting;
 
-import javax.swing.*;
 
 public class sort012 {
     static void sort_012(int[] arr) {
