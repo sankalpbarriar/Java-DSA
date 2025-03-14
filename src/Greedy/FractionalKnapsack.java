@@ -1,0 +1,7 @@
+package Greedy;
+
+public class FractionalKnapsack {
+    public static void main(String[] args) {
+        
+    }
+}
